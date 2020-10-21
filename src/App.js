@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Grafico from './components/Grafico';
 
 function App() {
   return (
-    <h1>welcome</h1>
+    <Grafico/>
   );
 }
 
