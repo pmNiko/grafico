@@ -9,10 +9,10 @@ const Grafico = () => {
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                labels: ['Phyton', 'Ruby', 'JavaScript', 'Java', 'Smalltalk', 'Json'],
                 datasets: [{
-                    label: '# of Votes',
-                    data: [12, 19, 3, 5, 2, 3],
+                    label: 'Lenguajes de Programación',
+                    data: [10, 60, 30, 50, 45, 17],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
@@ -45,7 +45,7 @@ const Grafico = () => {
     }, []);
 
     return (    
-        <canvas ref={cr} width="300px" height="100vh"></canvas>
+        <canvas ref={cr}></canvas>
     );
 }
  

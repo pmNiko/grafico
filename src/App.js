@@ -1,9 +1,18 @@
 import React from 'react';
 import Grafico from './components/Grafico';
+import Nav from './common/Nav';
 
 function App() {
   return (
-    <Grafico/>
+    <>
+      <Nav/>
+      <div className="row">
+        <div className="col-10 m-auto">
+          <Grafico/>
+        </div>      
+      </div>
+
+    </>
   );
 }
 
